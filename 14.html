@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Анимация мигания</title>
+    <style>
+        @keyframes blink {
+            0% {
+                background-color: white;
+            }
+            50% {
+                background-color: red;
+            }
+            100% {
+                background-color: white;
+            }
+        }
+
+        .blink-animation {
+            animation: blink 0.3s infinite;
+        }
+    </style>
+</head>
+<body>
+<div class="blink-animation">ALARM!</div>
+</body>
+</html>
