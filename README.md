@@ -66,7 +66,9 @@
 <h1 style="text-align: center">Решения</h1>
 
 <h2 style="text-align: center">Файл 1.html(Задание 1-7)</h2>
+
 ```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
